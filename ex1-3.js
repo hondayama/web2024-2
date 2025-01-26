@@ -5,4 +5,4 @@ function hyoji34(){document.getElementById('logo3').src ='./image/82.png'; setTi
 function hyoji35(){document.getElementById('logo3').src ='./image/43.png'; setTimeout("hyoji36()",300);}
 function hyoji36(){document.getElementById('logo3').src ='./image/o.png';}
 
-function nazo3(){ if (document.getElementById('answer3').value == '201') {alert('あたり！');} else if(document.getElementById('answer2').value == '２０１'){alert('あたり!');}　else{alert('はずれ！')}}
+function nazo3(){ if (document.getElementById('answer3').value == '201') {alert('あたり！');} else if(document.getElementById('answer3').value == '２０１'){alert('あたり!');}　else{alert('はずれ！')}}
