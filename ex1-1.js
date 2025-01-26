@@ -4,3 +4,5 @@ function hyoji13(){document.getElementById('logo').src ='./image/7.png'; setTime
 function hyoji14(){document.getElementById('logo').src ='./image/2.png'; setTimeout("hyoji15()",300);}
 function hyoji15(){document.getElementById('logo').src ='./image/8.png'; setTimeout("hyoji16()",300);}
 function hyoji16(){document.getElementById('logo').src ='./image/o.png';}
+
+function nazo(){ if (document.getElementById('answer').value == '23') {alert('あたり！');} else{alert('はずれ')}}
